@@ -1,0 +1,353 @@
+import { Typography } from '@material-ui/core';
+import { makeStyles, createTheme, ThemeProvider } from '@material-ui/core/styles';
+import billingInformationData from './RightFramedata';
+
+export const useStyles = makeStyles((theme) => ({
+  root: {
+    [theme.breakpoints.down('sm')]: {
+      marginLeft: 'auto',
+      marginRight: 'auto',
+      width: '100%',
+      maxWidth: '400px',
+    },
+    
+  },
+  title: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginLeft:100,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '1.5rem',
+    },
+  },
+  miscard:{
+    display:'flex',
+    gap:'10px',
+  },
+  cross: {
+    fontSize: '3',
+    marginRight :'30%',
+    //transform: 'translateX(13px)',
+    color: '#8695A0',
+  },
+  rectangle: {
+    position: 'relative',
+    zIndex: '0',
+    top: '-130px',
+    width: '100%',
+    maxWidth: '400%',
+    marginTop: '2px',
+    background: '#dfe7fa84',
+    borderRadius: '0.5rem',
+    gap: '20rem',
+    [theme.breakpoints.down('sm')]: {
+      //marginTop: '2rem',
+      maxWidth: '100%',
+      //gap: '2rem',
+      //padding: '1rem',
+    },
+  },
+  pay: {
+    fontFamily: 'Inter',
+    fontStyle: 'normal',
+    fontWeight: 700,
+    fontSize: '1.1rem',
+    lineHeight: '19px',
+    letterSpacing: '0.02em',
+    color: '#0A043C',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '1rem',
+    },
+  },
+  jacard: {
+    width: '100%',
+    maxWidth: '300px',
+    height: '40px',
+    background: '#FFFFFF',
+    boxShadow: '0px 31.2988px 59.3029px rgba(10, 4, 60, 0.06)',
+    borderRadius: '10px',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '15px',
+    [theme.breakpoints.down('sm')]: {
+      maxWidth: '100%',
+    },
+  },
+  jicon: {
+    color: '#2979F2',
+    fontSize: '20px',
+  },
+  micard: {
+    width: '100%',
+    maxWidth: '300px',
+    height: '40px',
+    background: '#FFFFFF',
+    boxShadow: '0px 31.2988px 59.3029px rgba(10, 4, 60, 0.06)',
+    borderRadius: '10px',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '15px',
+    [theme.breakpoints.down('sm')]: {
+      maxWidth: '100%',
+    },
+  },
+  micon: {
+    color: '#8695A0',
+    fontSize: '20px',
+  },
+  carre: {
+    width: '100px',
+    height: '101px',
+    background: '#C4C4C4',
+    borderRadius: '10px',
+  },
+  incarre: {
+    
+    marginRight: '15px',
+  },
+  info: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    [theme.breakpoints.down('sm')]: {
+      flexDirection: 'column',
+      alignItems: 'flex-start',
+    },
+  },
+  left: {
+    display: 'grid',
+    gap: '0.4rem',
+    color: '#7C8DB5',
+  },
+  right: {
+    padding: '10px',
+    marginRight: '10px',
+    gap: '0.4rem',
+    display: 'grid',
+  },
+  free: {
+    marginLeft: '70px',
+    color: '#2979F2',
+    fontWeight: 'bold',
+  },
+  price: {
+    fontSize: '12px',
+    color: '#7C8DB5',
+  },
+  span: {
+    fontSize: '17px',
+    fontWeight: 'bold',
+  },
+  name: {
+    fontSize: '15px',
+    fontWeight: 'bold',
+  },
+  line: {
+    marginBottom:0,
+    height: '1px',
+    backgroundImage:
+      'repeating-linear-gradient(to right, #2979F2, #2979F2 7px, #dfe7fa84 7px, #dfe7fa84 18px)',
+  },
+  contain: {
+    display: 'grid',
+    alignItems: 'center',
+    marginLeft: '20px',
+    gap: '1rem',
+    transform: 'translateY(60px)',
+    [theme.breakpoints.down('sm')]: {
+      transform: 'none',
+      gap: '2rem',
+      padding: '1rem',
+    },
+  },
+  total: {
+    transform: 'translateY(-28px)',
+  },
+  tbtn: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '180px',
+    height: '40px',
+    transform: 'translateY(33px)',
+    border: 'none',
+    background: '#2979F2',
+    borderRadius: '100px',
+    marginLeft: '20px',
+    [theme.breakpoints.down('sm')]: {
+      width: '100%',
+      maxWidth: '300px',
+      marginTop: '2rem',
+    },
+  },
+  nicon: {
+    color: '#2979F2',
+    marginLeft: '0.25rem',
+  },
+  next: {
+    width: '50px',
+    height: '50px',
+    borderRadius: '50%',
+    backgroundColor: '#ffffff',
+    display: 'flex',
+    alignItems: 'center',
+    transform: 'translateX(-23px)',
+    [theme.breakpoints.down('sm')]: {
+      width: '30px',
+      height: '30px',
+    },
+  },
+  tdiv: {
+    display: 'inline-block',
+    fontSize: '16px',
+    marginLeft: '10px',
+    color: '#FFFFFF',
+    fontSize: '16px',
+    fontWeight: 'bold',
+  },
+  demiCercle: {
+    position: 'absolute',
+    width: '20px',
+    height: '10px',
+    borderTopRightRadius: '25px',
+    borderTopLeftRadius: '25px',
+    backgroundColor: 'white',
+    transform: 'rotate(90deg)',
+    marginTop: '30rem',
+  },
+  demi: {
+    transform: 'translateX(-18.5px)',
+  },
+  scard: {
+    position:'relative',
+    zIndex:'1',
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '20px',
+    width: '320px',
+    height: '100px',
+    boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px',
+    marginLeft: '1rem',
+    transform: 'translateY(-2.9rem)',
+    background: 'rgba(175, 175, 175, 0.82)',
+    borderBottomRightRadius: '12.4964px',
+    borderBottomLeftRadius: '12.4964px',
+    [theme.breakpoints.down('sm')]: {
+      width: '100%',
+      maxWidth: '300px',
+      marginTop: '2rem',
+    },
+  },
+  card: {
+    position:'relative',
+    zIndex:'1',
+    width: '100%',
+    maxWidth: '348px',
+    marginLeft: '1rem',
+    transform: 'translateY(2rem)',
+    background: '#C4C4C4',
+    borderRadius: '12.4964px',
+    [theme.breakpoints.down('sm')]: {
+      maxWidth: '100%',
+    },
+  },
+  cardContainer: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: '20px',
+  },
+  fcard: {
+    display: 'grid',
+    gap: '0.5rem',
+    color: '#FFFFFF',
+  },
+  lcard: {
+    display: 'grid',
+    gap: '0.5rem',
+    color: '#FFFFFF',
+  },
+  mcard: {
+    color: '#FFFFFF',
+    marginTop: '1.8rem',
+  },
+  fscard: {
+    display: 'grid',
+    gap: '0.5rem',
+  },
+  lscard: {
+    display: 'grid',
+    gap: '0.5rem',
+  },
+  cart: {
+    fontSize: '2rem',
+  },
+  linfo: {
+    fontSize: '12px',
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+  },
+  finfo: {
+    fontSize: '12px',
+    color: '#FFFFFF',
+  },
+  tcircle: {
+    display: 'flex',
+    alignItems: 'center',
+    marginLeft:'30%',
+    marginTop:'30px',
+    //justifyContent: 'flex-end',
+    //transform: 'translateX(6rem)',
+    gap: '0.5rem',
+  },
+  ticon: {
+    color: '#2979F2',
+    fontSize: '10px',
+  },
+  total: {
+    transform: 'translateY(-28px)',
+  },
+  tbtn: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '180px',
+    height: '40px',
+    transform: 'translateY(33px)',
+    border: 'none',
+    background: '#2979F2',
+    borderRadius: '100px',
+    marginLeft: '20px',
+    [theme.breakpoints.down('sm')]: {
+      width: '100%',
+      maxWidth: '300px',
+      marginTop: '2rem',
+    },
+  },
+  nicon: {
+    color: '#2979F2',
+    marginLeft: '0.5rem',
+  },
+  next: {
+    width: '30px',
+    height: '30px',
+    borderRadius: '50%',
+    backgroundColor: '#ffffff',
+    display: 'flex',
+    alignItems: 'center',
+    transform: 'translateX(-23px)',
+  },
+  tdiv: {
+    display: 'inline-block',
+    fontSize: '16px',
+    marginLeft: '10px',
+    color: '#FFFFFF',
+    fontSize: '16px',
+    fontWeight: 'bold',
+  },
+}));
+

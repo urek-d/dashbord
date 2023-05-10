@@ -1,0 +1,168 @@
+ 
+<div className="billing-information" style={{backgroundImage:`url(${billingInformation})`}}>
+      <div className="overlap-group4">
+        <div className="rectangle-2291"></div>
+        <div className="rectangle-2292"></div>
+        <div className="group-33781">
+          <img className="group-33745" src={group33745} alt="Group 33745" />
+        </div>
+        <div className="group-33740">
+          <div className="mask-group"></div>
+          <div className="group-476">
+            <div className="kids-duck-toys inter-semi-bold-astronaut-16px">
+              <span className="inter-semi-bold-astronaut-16px">{spanText1}</span>
+            </div>
+            <div className="category-accessories inter-normal-regent-gray-12px">
+              <span className="inter-normal-regent-gray-12px">{spanText2}</span>
+            </div>
+          </div>
+        </div>
+        <div className="payment">
+          <div className="payment-1 inter-medium-black-rock-16px">
+            <span className="inter-medium-black-rock-16px">{spanText3}</span>
+          </div>
+          <div className="group-container">
+            <div className="group-470">
+              <div className="ellipse-container">
+                <div className="ellipse-51"></div>
+                <img className="ellipse-52" src={ellipse52} alt="Ellipse 52" />
+              </div>
+              <div className="jajan-card">
+                <span className="inter-semi-bold-astronaut-blue-14px">{spanText4}</span>
+                <span className="span1">{spanText5}</span>
+                <span className="span2">{spanText6}</span>
+              </div>
+            </div>
+            <img className="group-81" src={group811} alt="Group 81" />
+          </div>
+          <div className="group-475">
+            <div className="group-471">
+              <div className="ellipse-container-1">
+                <div className="ellipse-51-1"></div>
+                <div className="ellipse-52-1"></div>
+              </div>
+              <div className="nginjem-card inter-normal-shadow-blue-14px">
+                <span className="inter-normal-shadow-blue-14px">{spanText7}</span>
+              </div>
+            </div>
+            <img className="group-81-1" src={group812} alt="Group 81" />
+          </div>
+
+
+
+                  < div className = " group-container-1 " >
+                     < div className = " group-47 " >
+                        < div className = " overlap-group2 " >
+                           < img className = " vector-1 " src = { vector1 } alt = " Vector 1 " />
+                           < div className = " group-15 " >
+                              < div className = " overlap-group1 " >
+                                 < div className = " rectangle-3 " > </ div >
+                                 < img className = " mask-group-1 " src = { maskGroup }
+      alt = " Mask Group " />
+                               < div className = " overlap-group " >
+                                   < div className = " whyz inter-semi-bold-white-16px " >
+                                      < span className = " inter-semi-bold-white-16px " >
+      { spanText8 } </ span >
+                                  </ div >
+                                  < img className = " vector-7500 " src = { vector7500 }
+      alt = " Vector 7500 " />
+                                 < img className = " vector-7501 " src = { vector7501 }
+      alt = " Vector 7501 " />
+                              </ div >
+                              < p className = " address inter-medium-white-17-1px " >
+                                 < span className = " inter-medium-white-17-1px " >
+      { spanText9 } </ span >
+                              </ p >
+                              < div className = " jajan-card-1 inter-medium-black-haze-
+      17-4px " >
+                                 < span className = " inter-medium-black-haze-17-4px " >
+      { spanText10 } </ span >
+                              </ div >
+                              < div className = " card-holder inter-normal-coconut-8-
+      1px " >
+                                 < span className = " inter-normal-coconut-8-1px " >
+      { spanText11 } </ span >
+                              </ div >
+                              < div className = " mamang-zahri inter-medium-desert-
+      storm-10px " >
+                                 < span className = " inter-medium-desert-storm-10px " >
+      { spanText12 } </ span >
+                              </ div >
+                              < div className = " group-9 " >
+                                 < div className = " expired inter-normal-coconut-8-
+      1px " >
+                                     < span className = " inter-normal-coconut-8-1px " >
+      { spanText13 } </ span >
+                                 </ div >
+                                 < div className = " text-1 inter-medium-desert-storm-
+      10px " >
+                                     < span className = " inter-medium-desert-storm-10px " >
+      { spanText14 } </ span >
+                                 </ div >
+                              </ div >
+                              </ div >
+                           </ div >
+                        </ div >
+                     </ div >
+                     < div className = " group-5503 " >
+                        < div className = " ellipse-1951 " > </ div >
+                        < div className = " ellipse-195 " > </ div >
+                        < div className = " ellipse-195 " > </ div >
+                     </ div >
+                  </ div >
+                  < div className = " group-33744 " >
+                     < div className = " ellipse-2325 " > </ div >
+                     < img className = " vector-7497 " src = { vector7497 } alt = " Vector
+      7497 " />
+                     < div className = " ellipse-2324 " > </ div >
+                  </ div >
+                  < div className = " group-1734 " >
+                     < div className = " group-33742 " >
+                        < div className = " order-detail inter-normal-wild-blue-yonder-
+      14px " >
+                        < span className = " inter-normal-wild-blue-yonder-14px " >
+      { spanText15 } </ span >
+                     </ div >
+                     < div className = " kids-duck-toys-1 inter-semi-bold-astronaut-
+      blue-14px " >
+                        < span className = " inter-semi-bold-astronaut-blue-14px " >
+      { spanText16 } </ span >
+                     </ div >
+                  </ div >
+                  < div className = " group-33741 " >
+                     < div className = " subtotal inter-normal-wild-blue-yonder-
+      14px " >
+                        < span className = " inter-normal-wild-blue-yonder-14px " >
+      { spanText17 } </ span >
+                     </ div >
+                     < div className = " price inter-normal-wild-blue-yonder-12px " >
+                        < span className = " inter-normal-wild-blue-yonder-12px " >
+      { spanText18 } </ span >
+                     </ div >
+                    < div className = " price-1 inter-semi-bold-astronaut-blue-
+      14px " >
+                           < span className = " inter-semi-bold-astronaut-blue-14px " >
+      { spanText19 } </ span >
+                        </ div >
+                     </ div >
+                     < div className = " group-33743 " >
+                        < div className = " shipping inter-normal-wild-blue-yonder-
+      14px " >
+                           < span className = " inter-normal-wild-blue-yonder-14px " >
+      { spanText20 } </ span >
+                        </ div >
+                        < div className = " free inter-semi-bold-blue-14px " >
+                           < span className = " inter-semi-bold-blue-14px " > { spanText21 }
+      </ span >
+                        </ div >
+                     </ div >
+                  </ div >
+                  < div className = " total-4400 " >
+                     < span className = " span0 " > { spanText22 } </ span >
+                     < span className = " inter-semi-bold-white-16px " > { spanText23 }
+      </ span >
+                  </ div >
+               </ div >
+            </ div >
+         );
+      }
