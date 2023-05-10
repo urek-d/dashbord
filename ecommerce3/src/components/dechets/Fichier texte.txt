@@ -1,0 +1,45 @@
+ overlap_group4: {
+        height: 808,
+        position: 'relative',
+        width: 369,
+      },
+      rectangle2291: {
+        backgroundColor: theme.palette.grey[100], // utiliser la palette de couleurs de Material UI pour les couleurs standards
+        borderRadius: 5,
+        height: 677,
+       
+        position: 'absolute',
+        top: 131,
+        width: 334,
+      },
+      rectangle2292: {
+        backgroundColor: theme.palette.primary.main, // utiliser la palette de couleurs de Material UI pour les couleurs standards
+        borderRadius: 100, // pour obtenir un cercle
+        height: 53,
+        
+        position: 'absolute',
+        top: 720,
+        width: 274,
+        
+        justifyContent: 'center',
+        alignItems: 'center',
+      },
+      group33781: {
+        backgroundColor: theme.palette.common.white, // utiliser la palette de couleurs de Material UI pour les couleurs standards
+        borderRadius: 21.5,
+        height: 43,
+        
+        position: 'absolute',
+        top: 730,
+        width: 43,
+        display: 'flex',
+        justifyContent: 'flex-end',
+        alignItems: 'center',
+        padding: theme.spacing(1), // utiliser la grille de spacing de Material UI pour la distance entre les éléments
+      },
+      group33745: {
+        height: 10,
+        width: 10,
+        borderRadius: '50%', // pour obtenir un cercle
+        backgroundColor: theme.palette.primary.main, // utiliser la palette de couleurs de Material UI pour les couleurs standards
+      },

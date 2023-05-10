@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:400,500,600');
+
+/* Font face */
+@font-face {
+  font-family: 'Avenir-Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://fonts.animaapp.com/Avenir-Medium') format('truetype');
+}

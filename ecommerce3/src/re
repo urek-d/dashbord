@@ -1,0 +1,12 @@
+<div className={classes.root} style={{ backgroundColor: isLightMode ? "#fff" : "#333" }}>
+      <CustomDrawer onLightModeToggle={handleLightModeToggle} />
+      <Grid container spacing={3}>
+        
+        <Grid item xs={12} sm={6} md={9} className={classes.leftGrid} style={{ backgroundColor: isLightMode ? "#fff" : "#333" }}>
+          <MainContent className={classes.mainContent} style={{ backgroundColor: isLightMode ? "#fff" : "#333" }} />
+        </Grid>
+        <Grid item xs={12} md={3} style={{ backgroundColor: isLightMode ? "#fff" : "#333" }} className={classes.rightGrid}>
+        <RightFrame style={{ backgroundColor: isLightMode ? "#fff" : "#333" }} />
+        </Grid>
+      </Grid>
+    </div>
